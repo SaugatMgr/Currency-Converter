@@ -1,0 +1,64 @@
+h1 {
+  font-family: "CustomFont";
+  font-size: 50px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url(CuanPassive-ywEM5.otf);
+}
+@font-face {
+  font-family: "CustomFont1";
+  src: url(expressway\ rg.otf);
+}
+body {
+  background-image: linear-gradient(to right, rgb(46, 132, 219), rgb(104, 123, 217), rgb(36, 116, 156), rgb(124, 98, 173), rgb(193, 192, 194), rgb(48, 84, 98));
+}
+
+#to, #from {
+  cursor: pointer;
+  font-family: "CustomFont1";
+  font-size: 15px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  border-color: grey;
+}
+
+div {
+  text-align: center;
+}
+
+#to {
+  margin-left: 23px;
+  margin-top: 10px;
+}
+
+input {
+  cursor: pointer;
+  font-family: "CustomFont1";
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  border-color: grey;
+}
+
+span {
+  font-family: "CustomFont1";
+  margin-left: 6px;
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+#result {
+  text-align: center;
+  font-family: "CustomFont1";
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=currency.css.map */
